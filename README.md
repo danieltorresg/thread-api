@@ -1,3 +1,7 @@
+## Daniel Torres González - 1020492000
+## Daniel Santa Rendón - 1040050021
+### Las respuesta está junto a la pregunta
+
 # Actividad de laboratorio #
 
 1. Dado el siguiente código:
