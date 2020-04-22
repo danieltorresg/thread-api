@@ -86,6 +86,8 @@ void cuenta (char *nombre) {
    * Mida el tiempo de ejecución de ambas implementaciones para varios tamaños del vector 
    *  ¿El resultado obtenido es acorde a lo que usted esperaba?
    Describa la técnica que usó para realizar la medición del tiempo. ¿Cuáles son las debilidades de esta técnica? ¿Existe otra forma de medir el tiempo de ejecución de un programa?
+   
+**R//:** Nosotros medimos el tiempo restando el tiempo final con el inicial esto por medio del método clock de la librería time.h, obteniendo un resultado curioso pues el tiempo fue mucho más grande usando dos hilos que dejando la ejecución secuencial. Una debilidad de esta técnica es que como hace parte del código, su ejecución toma tiempo. Otra técnica puede ser usar algún debugger que indique el tiempo. 
 
 6. El profesor de un curso desea un programa en lenguaje C que calcule la desviación estándar (símbolo σ o s) de las notas obtenidas por sus estudiantes en el curso 
 
